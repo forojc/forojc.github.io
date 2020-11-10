@@ -6,8 +6,6 @@ import './App.css';
 function App() {
   const ONE_DAY = 1000 * 60 * 60 * 24
 
-  const delimiter = /[ ]+/
-  const extendLimit = 3
   const commissionNoApplyDate = new Date("2020-03-01")
   const holidays = [
     "2020-01-01",
