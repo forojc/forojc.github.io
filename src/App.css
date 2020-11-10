@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 20px;
 }
 
 .App-logo {
@@ -35,4 +36,38 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.extend-each {
+  margin-bottom: 15px;
+}
+
+table {
+  margin: 10px auto;
+}
+
+.row {
+  padding: 10px;
+}
+.row:nth-child(2n) {
+  background-color: lightgray;
+}
+
+button {
+  font-size: 20px;
+  width: 50%;
+  color: white;
+  background-color: #0857C3;
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: #071D49;
+}
+#result {
+  margin-top: 20px;
+  background-color: #F2C75C;
+  padding: 10px;
+  padding-top: 5px;
 }
