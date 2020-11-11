@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "//forojc.github.io/static/css/main.bd46bef5.chunk.css",
-    "main.js": "//forojc.github.io/static/js/main.e5ece1ee.chunk.js",
-    "main.js.map": "//forojc.github.io/static/js/main.e5ece1ee.chunk.js.map",
+    "main.js": "//forojc.github.io/static/js/main.c789c854.chunk.js",
+    "main.js.map": "//forojc.github.io/static/js/main.c789c854.chunk.js.map",
     "runtime-main.js": "//forojc.github.io/static/js/runtime-main.3242f3a7.js",
     "runtime-main.js.map": "//forojc.github.io/static/js/runtime-main.3242f3a7.js.map",
     "static/js/2.e320c970.chunk.js": "//forojc.github.io/static/js/2.e320c970.chunk.js",
@@ -11,13 +11,12 @@
     "static/js/3.59fb3c78.chunk.js.map": "//forojc.github.io/static/js/3.59fb3c78.chunk.js.map",
     "index.html": "//forojc.github.io/index.html",
     "static/css/main.bd46bef5.chunk.css.map": "//forojc.github.io/static/css/main.bd46bef5.chunk.css.map",
-    "static/js/2.e320c970.chunk.js.LICENSE.txt": "//forojc.github.io/static/js/2.e320c970.chunk.js.LICENSE.txt",
-    "static/media/logo.103b5fa1.svg": "//forojc.github.io/static/media/logo.103b5fa1.svg"
+    "static/js/2.e320c970.chunk.js.LICENSE.txt": "//forojc.github.io/static/js/2.e320c970.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3242f3a7.js",
     "static/js/2.e320c970.chunk.js",
     "static/css/main.bd46bef5.chunk.css",
-    "static/js/main.e5ece1ee.chunk.js"
+    "static/js/main.c789c854.chunk.js"
   ]
 }
