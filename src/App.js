@@ -34,8 +34,8 @@ function App() {
     [1, 3, 5],
     [2, 4, 6],
     [2, 4],
-    [1, 2, 3, 4, 5, 6],
     [1, 2, 3, 4, 5],
+    [1, 2, 3, 4, 5, 6],
     [0, 1, 2, 3, 4, 5, 6]
   ]
 
@@ -151,7 +151,7 @@ function App() {
       setUsedDates(newUsedDates)
 
       // DAILY FEE
-      var dailyFee = Math.round(payAmount / totalDays)
+      var dailyFee = Math.floor(payAmount / totalDays)
       setDailyFee(dailyFee)
 
       var usedFee = dailyFee * usedDays
@@ -161,7 +161,7 @@ function App() {
       setRefundTargetFee(refundTargetFee)
 
       var newCommission = (new Date(startDate) < commissionNoApplyDate) ?
-                        Math.round(refundTargetFee * 0.025) :
+                        Math.floor(refundTargetFee * 0.025) :
                         0
       setCommission(newCommission)
 
